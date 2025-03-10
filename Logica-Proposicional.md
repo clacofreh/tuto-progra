@@ -63,19 +63,50 @@ Podemos combinar proposiciones usando **conectores lógicos**.
 
 Las **tablas de verdad** nos ayudan a ver todas las combinaciones de valores de verdad para una proposición.
 
-📌 **Ejemplo con "Y" (AND)**  
-"Tengo helado **y** galletas" solo es verdad si **tengo ambas cosas**.
+### Negación (¬)
+| p | ¬p |
+|---|---|
+| ✅ V | ❌ F |
+| ❌ F | ✅ V |
 
-| p (Helado) | q (Galletas) | p ∧ q (Ambos) |
-|------|------|------|
-| ✅ Sí | ✅ Sí | ✅ Sí |
-| ✅ Sí | ❌ No | ❌ No |
-| ❌ No | ✅ Sí | ❌ No |
-| ❌ No | ❌ No | ❌ No |
+### Conjunción (∧)
+| p | q | p ∧ q |
+|---|---|-------|
+| ✅ V | ✅ V | ✅ V |
+| ✅ V | ❌ F | ❌ F |
+| ❌ F | ✅ V | ❌ F |
+| ❌ F | ❌ F | ❌ F |
 
-👉 **Regla:** Solo es verdad si **ambas** son verdaderas.
+### Disyunción (∨)
+| p | q | p ∨ q |
+|---|---|-------|
+| ✅ V | ✅ V | ✅ V |
+| ✅ V | ❌ F | ✅ V |
+| ❌ F | ✅ V | ✅ V |
+| ❌ F | ❌ F | ❌ F |
 
----
+### Implicación (→)
+| p | q | p → q |
+|---|---|-------|
+| ✅ V | ✅ V | ✅ V |
+| ✅ V | ❌ F | ❌ F |
+| ❌ F | ✅ V | ✅ V |
+| ❌ F | ❌ F | ✅ V |
+
+### Bicondicional (↔)
+| p | q | p ↔ q |
+|---|---|-------|
+| ✅ V | ✅ V | ✅ V |
+| ✅ V | ❌ F | ❌ F |
+| ❌ F | ✅ V | ❌ F |
+| ❌ F | ❌ F | ✅ V |
+
+📌 **Reglas importantes:**
+- **Negación (¬)**: Invierte el valor de verdad
+- **Conjunción (∧)**: Verdadera solo si ambas son verdaderas
+- **Disyunción (∨)**: Falsa solo si ambas son falsas
+- **Implicación (→)**: Falsa solo si p es verdadera y q es falsa
+- **Bicondicional (↔)**: Verdadera si ambas son iguales
 
 ## 5️⃣ **Leyes y Reglas de Inferencia**
 
