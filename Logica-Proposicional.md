@@ -3,7 +3,6 @@ La **lógica proposicional** es una forma de pensar usando frases que pueden ser
 
 ---
 
-## 🎈 **Explicación para un niño de 10 años**
 Imagina que tienes una caja mágica que responde solo con **Sí (Verdadero)** o **No (Falso)** a cualquier pregunta.  
 
 📌 **Ejemplo:**  
