@@ -110,17 +110,57 @@ Las **tablas de verdad** nos ayudan a ver todas las combinaciones de valores de 
 
 ## 5️⃣ **Leyes y Reglas de Inferencia**
 
-Algunas reglas fundamentales de la lógica:
-- **Ley de identidad:** p ∧ V = p, p ∨ F = p
-- **Ley del complemento:** p ∨ ¬p = V, p ∧ ¬p = F
-- **Ley de distributiva:** p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r)
+### 📐 **Leyes Fundamentales de la Lógica**
 
-Algunas **reglas de inferencia** usadas en demostraciones:
-- **Modus Ponens:** Si p → q y p es verdadero, entonces q también es verdadero.
-- **Modus Tollens:** Si p → q y q es falso, entonces p también es falso.
+Estas leyes son como las "reglas matemáticas" de la lógica que siempre se cumplen:
 
----
+#### **Ley de identidad:** 
+- **p ∧ V = p**: Si combinamos una proposición con algo que siempre es verdadero (usando AND), el resultado es la proposición original.
+  - *Ejemplo:* "Está lloviendo Y es verdad que existo" = "Está lloviendo"
+- **p ∨ F = p**: Si combinamos una proposición con algo que siempre es falso (usando OR), el resultado es la proposición original.
+  - *Ejemplo:* "Está lloviendo O los peces viven en Marte" = "Está lloviendo"
 
+#### **Ley del complemento:**
+- **p ∨ ¬p = V**: Una proposición O su negación siempre es verdadero (no hay otra opción).
+  - *Ejemplo:* "Está lloviendo O NO está lloviendo" = Siempre verdadero
+- **p ∧ ¬p = F**: Una proposición Y su negación siempre es falso (es imposible).
+  - *Ejemplo:* "Está lloviendo Y NO está lloviendo" = Siempre falso
+
+#### **Ley de distributiva:**
+- **p ∧ (q ∨ r) = (p ∧ q) ∨ (p ∧ r)**: Podemos "distribuir" una proposición sobre un paréntesis.
+  - *Ejemplo:* "Tengo hambre Y (tengo pizza O tengo pasta)" = "(Tengo hambre Y tengo pizza) O (Tengo hambre Y tengo pasta)"
+
+### 🔍 **Reglas de Inferencia**
+
+Estas reglas nos permiten llegar a conclusiones lógicas a partir de premisas:
+
+#### **Modus Ponens (Afirmación del antecedente):**
+- Si sabemos que "p → q" (Si p, entonces q) y también sabemos que "p" es verdadero, podemos concluir que "q" es verdadero.
+- *Ejemplo práctico:* 
+  - Premisa 1: "Si llueve, entonces las calles se mojan"
+  - Premisa 2: "Está lloviendo"
+  - Conclusión: "Las calles están mojadas"
+
+#### **Modus Tollens (Negación del consecuente):**
+- Si sabemos que "p → q" (Si p, entonces q) y también sabemos que "q" es falso, podemos concluir que "p" es falso.
+- *Ejemplo práctico:* 
+  - Premisa 1: "Si Juan está en casa, entonces su auto está en el garaje"
+  - Premisa 2: "El auto de Juan NO está en el garaje"
+  - Conclusión: "Juan NO está en casa"
+
+#### **Silogismo Hipotético:**
+- Si "p → q" y "q → r", entonces "p → r"
+- *Ejemplo:* 
+  - "Si llueve, entonces uso paraguas"
+  - "Si uso paraguas, entonces no me mojo"
+  - Por lo tanto: "Si llueve, entonces no me mojo"
+
+#### **Silogismo Disyuntivo:**
+- Si "p ∨ q" y "¬p", entonces "q"
+- *Ejemplo:* 
+  - "O estudio o repruebo"
+  - "No estoy estudiando"
+  - Por lo tanto: "Voy a reprobar"
 ## 6️⃣ **Aplicaciones de la Lógica Proposicional**
 
 ✅ **Tomar decisiones lógicas:** "Si estudio, entonces apruebo".  
