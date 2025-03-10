@@ -69,4 +69,3 @@ Imagina que eres un **detective** y tienes estas pistas:
 - Las **tablas de verdad** nos ayudan a analizar combinaciones.  
 - Se usa en la vida diaria, en matemáticas y en computadoras.  
 
-🚀 ¡Ahora ya sabes cómo pensar como un programador o un detective con lógica! 🎩🕵️‍♂️
