@@ -5,19 +5,19 @@ La **lógica proposicional** es una herramienta para razonar usando frases que p
 ---
 
 ## 📖 **Índice**
-1. **Introducción a la Lógica Proposicional**
-2. **Proposiciones y Valores de Verdad**
-3. **Conectores Lógicos**
+1. [**Introducción a la Lógica Proposicional**](#1️⃣-introducción-a-la-lógica-proposicional)
+2. [**Proposiciones y Valores de Verdad**](#2️⃣-proposiciones-y-valores-de-verdad)
+3. [**Conectores Lógicos**](#3️⃣-conectores-lógicos)
    - Negación (NO, ¬)
    - Conjunción (Y, ∧)
    - Disyunción (O, ∨)
    - Implicación (Si... entonces, →)
    - Bicondicional (Si y solo si, ↔)
-4. **Tablas de Verdad**
-5. **Leyes y Reglas de Inferencia**
-6. **Aplicaciones de la Lógica Proposicional**
-7. **Ejemplo Práctico**
-8. **Resumen Final**
+4. [**Tablas de Verdad**](#4️⃣-tablas-de-verdad)
+5. [**Leyes y Reglas de Inferencia**](#5️⃣-leyes-y-reglas-de-inferencia)
+6. [**Aplicaciones de la Lógica Proposicional**](#6️⃣-aplicaciones-de-la-lógica-proposicional)
+7. [**Ejemplo Práctico**](#7️⃣-ejemplo-práctico)
+8. [**Resumen Final**](#-resumen-final)
 
 ---
 
