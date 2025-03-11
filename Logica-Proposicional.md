@@ -107,7 +107,98 @@ Las **tablas de verdad** nos ayudan a ver todas las combinaciones de valores de 
 - **Disyunción (∨)**: Falsa solo si ambas son falsas
 - **Implicación (→)**: Falsa solo si p es verdadera y q es falsa
 - **Bicondicional (↔)**: Verdadera si ambas son iguales
+1. Negación (¬)
+La negación invierte el valor de verdad de una proposición. Si una proposición es verdadera, su negación es falsa, y viceversa.
 
+Ejemplo:
+
+Proposición: "Está lloviendo" (p)
+Negación: "No está lloviendo" (¬p)
+Tabla de verdad:
+
+p	¬p
+V	F
+F	V
+2. Conjunción (∧)
+La conjunción solo es verdadera si ambas proposiciones son verdaderas.
+
+Ejemplo:
+
+"Está lloviendo" (p) y "Hace frío" (q)
+Expresión lógica: p ∧ q → "Está lloviendo y hace frío"
+Tabla de verdad:
+
+p	q	p ∧ q
+V	V	V
+V	F	F
+F	V	F
+F	F	F
+Explicación:
+
+Solo es verdadera cuando ambas condiciones son verdaderas.
+3. Disyunción (∨)
+La disyunción es falsa solo si ambas proposiciones son falsas. En cualquier otro caso, es verdadera.
+
+Ejemplo:
+
+"Está lloviendo o hace calor" (p ∨ q)
+Tabla de verdad:
+
+p	q	p ∨ q
+V	V	V
+V	F	V
+F	V	V
+F	F	F
+Explicación:
+
+La disyunción es inclusiva, lo que significa que si al menos una proposición es verdadera, el resultado es verdadero.
+4. Implicación (→)
+La implicación se interpreta como "Si p, entonces q". Es falsa solo cuando el antecedente (p) es verdadero y el consecuente (q) es falso.
+
+Ejemplo:
+
+"Si estudias, entonces apruebas" (p → q)
+p = "Estudias"
+q = "Apruebas"
+Tabla de verdad:
+
+p	q	p → q
+V	V	V
+V	F	F
+F	V	V
+F	F	V
+Explicación:
+
+Si estudias (p = V) y apruebas (q = V), la implicación es verdadera.
+Si estudias (p = V) pero no apruebas (q = F), la implicación es falsa.
+Si no estudias (p = F), la implicación siempre se considera verdadera, sin importar q.
+5. Bicondicional (↔)
+El bicondicional es verdadero solo cuando ambas proposiciones tienen el mismo valor de verdad.
+
+Ejemplo:
+
+"Voy al cine si y solo si tengo dinero" (p ↔ q)
+p = "Voy al cine"
+q = "Tengo dinero"
+Tabla de verdad:
+
+p	q	p ↔ q
+V	V	V
+V	F	F
+F	V	F
+F	F	V
+Explicación:
+
+Si tengo dinero (q = V) y voy al cine (p = V), la proposición es verdadera.
+Si no tengo dinero (q = F) y no voy al cine (p = F), la proposición sigue siendo verdadera.
+Pero si tengo dinero (q = V) y no voy al cine (p = F), o viceversa, la proposición es falsa.
+📌 Resumen
+
+¬p: Invierte el valor de p.
+p ∧ q: Solo es verdadero si ambas proposiciones son verdaderas.
+p ∨ q: Es falso solo si ambas proposiciones son falsas.
+p → q: Falso solo si p es verdadero y q es falso.
+p ↔ q: Verdadero si ambos valores de verdad son iguales.
 ## 5️⃣ **Leyes y Reglas de Inferencia**
 
 ### 📐 **Leyes Fundamentales de la Lógica**
